@@ -44,7 +44,7 @@ df.duplicated()
 output_csv_file = 'cleaned_data.csv'
 df.to_csv(output_csv_file, index=False)
 
-df = pd.read_csv('/content/cleaned_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Arinatyas/allah/refs/heads/main/cleaned_data%20(1).csv')
 test_size = int(len(df) * 0.3)
 
 df = df.sample(frac=1, random_state=42).reset_index(drop=True)
