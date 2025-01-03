@@ -3,3 +3,4 @@ streamlit
 numpy
 flask
 flask joblib
+joblib
