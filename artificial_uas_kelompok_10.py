@@ -11,7 +11,7 @@ Original file is located at
 
 import pandas as pd
 
-df = pd.read_csv("/content/indian_liver_patient.csv", encoding="ISO-8859-1")
+df = pd.read_csv("https://github.com/Arinatyas/allah/blob/main/indian_liver_patient.csv", encoding="ISO-8859-1")
 df
 
 df.info()
