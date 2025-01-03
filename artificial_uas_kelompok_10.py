@@ -259,16 +259,9 @@ output_df.to_csv('hasil_test.csv', index=False)
 
 """**DEPLOYMENT**"""
 
-!pip install flask joblib
-
-!pip install flask
-!pip install pyngrok
-
 import joblib
 
 joblib.dump(rf, 'random_forest_model.pkl')
-
-!ngrok authtoken 2qRG2spL9nE7KAjbbms0U2EcMpd_56ec9JFAXx3Q9bDBwRwWw
 
 from flask import Flask, render_template, request, jsonify
 import joblib
