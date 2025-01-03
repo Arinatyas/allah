@@ -8,10 +8,9 @@ Original file is located at
 
 **IMPORT DATA**
 """
-
 import pandas as pd
 
-df = pd.read_csv("https://github.com/Arinatyas/allah/blob/main/indian_liver_patient.csv", encoding="ISO-8859-1")
+df = pd.read_csv("https://raw.githubusercontent.com/Arinatyas/allah/refs/heads/main/indian_liver_patient.csv", encoding="utf-8")
 df
 
 df.info()
